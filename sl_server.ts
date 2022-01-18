@@ -106,7 +106,7 @@ class LogElement {
     }
 }
 
-// Zum Sichern der ListOfElements (der Liste) in Datei
+// Zum Sichern der ListOfElements (der Liste) in übergebener Datei
 function saveList(listOfElements: ListOfElements, file: string): string {
     if (logRequest) console.log("function saveList() gestartet.");
 
@@ -180,7 +180,7 @@ function readRow(listElement: ListElement): string {
 function createTable(listOfElements: ListOfElements): string {
     if (logRequest) console.log("function createTable() gestartet.");
 
-    // setzt vorherige Tabelle zurück
+    // String, der als neue Tabelle in HTML ausgegeben werden soll
     let tablecontent_html: string = "";
 
     // Sofern abgerufenes Element aus Liste aktiv ist, wird dieses für die Dartellung aufgearbeitet
