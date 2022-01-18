@@ -138,6 +138,8 @@ function menueButtons(event) {
                 if (logEvents)
                     console.log("Änderungen erfolgreich in neuer Datei gespeichert.");
                 fillTable();
+                // Information zur Sicherung
+                alert("Liste erfolgreich gespeichert!");
                 // Falls Fehler vorliegt, HTTP-Statuscode nicht OK
             }
             else {
