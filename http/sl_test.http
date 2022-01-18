@@ -1,0 +1,66 @@
+### Test Requests für den Server
+
+### GET /
+GET http://localhost:8080/
+
+###GET /icon
+GET http://localhost:8080/icon
+
+### GET /version
+GET http://localhost:8080/version
+
+### POST /login
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "user_name": "Izzet"
+}
+
+### POST /create
+POST http://localhost:8080/create
+Content-Type: application/json
+
+{
+  "name": "Izzet",
+  "toBuy": "Tomaten",
+  "store": "Aldi",
+  "date": "2022-01-20"
+}
+
+### GET /create
+GET http://localhost:8080/create
+
+### GET /read
+GET http://localhost:8080/read
+
+### POST /read
+POST http://localhost:8080/read
+Content-Type: application/json
+
+{
+  "editID": "17"
+}
+
+### POST /update
+POST http://localhost:8080/update
+Content-Type: application/json
+
+{
+  "editID": "17",
+  "name": "Leon",
+  "toBuy": "Tomaten",
+  "store": "Aldi",
+  "date": "2022-01-20"
+}
+
+### POST /delete
+POST http://localhost:8080/delete
+Content-Type: application/json
+
+{
+  "editId": "17"
+}
+
+### GET /save
+GET http://localhost:8080/save

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Shopping List</title>
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="icon" type="image/x-icon" href="icon">
+    <script src="script/sl_client.js"></script>
+</head>
+<body>
+<div id="frame">
+    <header>
+        <h1>Shopping List</h1>
+        <hr>
+    </header>
+
+    <main>
+        <div id="login">
+            <form id="enter_login">
+                <div>
+                    <label for="user_name" class="login_label">Wer kauft ein?</label>
+                    <input id="user_name" type="text" autocomplete="off" placeholder=" " required>
+                </div>
+                <div>
+                    <input title="Login" id='logger' class='button' type='submit' value='   LOGIN   '>
+                </div>
+            </form>
+        </div>
+
+        <div id="contents" class="invisible">
+            <h3>Shopping List</h3>
+            <div id="menue_row">
+                <p id='toBuy'>Noch zu besorgen:</p>
+                <form id="form_menue">
+                    <input title="Neuer Eintrag" id='new' class='button' type='submit' value='   NEU   '>
+                    <input title="Liste speichern" id='sync' class='button' type='submit' value='   SICHERN   '>
+                </form>
+            </div>
+            <form id="form_table">
+                <div id="output" class="invisible">
+                        <!--Editiert durch Typescript-->
+                </div>
+            </form>
+        </div>
+
+        <hr>
+        <form id="show_impressum">
+            <input title="Anzeigen/Ausblenden" id='imp_button' class='button' type='submit' value='   IMPRESSUM   '>
+        </form>
+
+        <div id="impressum" class="invisible">
+            <hr>
+            <div class="text">
+                <h4>Impressum</h4>
+                <p class="italic">Hier könnte ein Impressum stehen.</p>
+                <p>Die Webseite wurde gestaltet von:</p>
+                <p>Izzet Ekicioglu</p>
+            </div>
+            <hr>
+        </div>
+    </main>
+</div>
+</body>
+</html>
