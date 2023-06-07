@@ -1,1 +1,149 @@
-[{"name":"Izzet","toBuy":"Burger","store":"Rewe","date":"2022-01-17","status":1},{"name":"Kaan","toBuy":"Nintendo","store":"Saturn","date":"2022-01-17","status":1},{"name":"Izzet","toBuy":"Mario Party","store":"Media Markt","date":"2022-01-17","status":1},{"name":"Izzet","toBuy":"Brot","store":"Bäcker","date":"2022-01-17","status":1},{"name":"Izzet","toBuy":"Nintendo","store":"Alternate","date":"2022-01-17","status":1},{"name":"Izzet","toBuy":"Buch","store":"Thalia","date":"2022-01-17","status":1},{"name":"Izzet","toBuy":"Salat","store":"Rewe","date":"2022-01-17","status":1},{"name":"Kaan","toBuy":"Mario Party","store":"Alternate","date":"2022-01-17","status":1},{"name":"Bernd","toBuy":"Nintendo Switch","store":"Media Markt","date":"2022-01-17","status":1},{"name":"Serkan","toBuy":"Kekse","store":"Edeka","date":"2022-01-19","status":1},{"name":"Anna","toBuy":"Käse","store":"Lidl","date":"2022-01-17","status":1},{"name":"Jan","toBuy":"Ketchup","store":"Aldi","date":"2022-01-17","status":1},{"name":"Izzet","toBuy":"Smartphone","store":"Saturn","date":"2022-01-17","status":1},{"name":"Izzet","toBuy":"Super Mario","store":"Alternate","date":"2022-01-18","status":1},{"name":"Tim","toBuy":"Brötchen","store":"Bäcker","date":"2022-01-18","status":1},{"name":"Tina","toBuy":"Salat","store":"Rewe","date":"2022-01-18","status":1},{"name":"Leon","toBuy":"Tomaten","store":"Aldi","date":"2022-01-20","status":1},{"name":"Izzet","toBuy":"Butter","store":"Edeka","date":"2022-01-18","status":1},{"name":"Mark","toBuy":"Chips","store":"Penny","date":"2022-01-18","status":1},{"name":"Izzet","toBuy":"Tomaten","store":"Aldi","date":"2022-01-20","status":1},{"name":"Izzet","toBuy":"Gurken","store":"Aldi","date":"2022-01-20","status":1}]
+[
+  {
+    "name": "Izzet",
+    "toBuy": "Burger",
+    "store": "Rewe",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Kaan",
+    "toBuy": "Nintendo",
+    "store": "Saturn",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Izzet",
+    "toBuy": "Mario Party",
+    "store": "Media Markt",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Izzet",
+    "toBuy": "Brot",
+    "store": "Bäcker",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Izzet",
+    "toBuy": "Nintendo",
+    "store": "Alternate",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Izzet",
+    "toBuy": "Buch",
+    "store": "Thalia",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Izzet",
+    "toBuy": "Salat",
+    "store": "Rewe",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Kaan",
+    "toBuy": "Mario Party",
+    "store": "Alternate",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Bernd",
+    "toBuy": "Nintendo Switch",
+    "store": "Media Markt",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Serkan",
+    "toBuy": "Kekse",
+    "store": "Edeka",
+    "date": "2022-01-19",
+    "status": 1
+  },
+  {
+    "name": "Anna",
+    "toBuy": "Käse",
+    "store": "Lidl",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Jan",
+    "toBuy": "Ketchup",
+    "store": "Aldi",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Izzet",
+    "toBuy": "Smartphone",
+    "store": "Saturn",
+    "date": "2022-01-17",
+    "status": 1
+  },
+  {
+    "name": "Izzet",
+    "toBuy": "Super Mario",
+    "store": "Alternate",
+    "date": "2022-01-18",
+    "status": 1
+  },
+  {
+    "name": "Tim",
+    "toBuy": "Brötchen",
+    "store": "Bäcker",
+    "date": "2022-01-18",
+    "status": 1
+  },
+  {
+    "name": "Tina",
+    "toBuy": "Salat",
+    "store": "Rewe",
+    "date": "2022-01-18",
+    "status": 1
+  },
+  {
+    "name": "Leon",
+    "toBuy": "Tomaten",
+    "store": "Aldi",
+    "date": "2022-01-20",
+    "status": 1
+  },
+  {
+    "name": "Izzet",
+    "toBuy": "Butter",
+    "store": "Edeka",
+    "date": "2022-01-18",
+    "status": 1
+  },
+  {
+    "name": "Mark",
+    "toBuy": "Chips",
+    "store": "Penny",
+    "date": "2022-01-18",
+    "status": 1
+  },
+  {
+    "name": "Izzet",
+    "toBuy": "Tomaten",
+    "store": "Aldi",
+    "date": "2022-01-20",
+    "status": 1
+  },
+  {
+    "name": "Izzet",
+    "toBuy": "Gurken",
+    "store": "Aldi",
+    "date": "2022-01-20",
+    "status": 1
+  }
+]
